@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nós | Nossa Equipe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(120deg, #e0f7fa 0%, #f8f8f8 100%);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto 0 auto;
+      padding: 0 12px;
+    }
+    h1, h2, h3 {
+      color: #f12f3f;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    h1 { font-size: 2.1rem; }
+    h2 { font-size: 1.3rem; margin-top: 36px; }
+    h3 { font-size: 1.08rem; margin-bottom: 0; }
+    .about-desc {
+      color: #555;
+      text-align: center;
+      margin-bottom: 18px;
+      font-size: 1.13em;
+    }
+    .mission-values {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      margin: 36px 0 24px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .mv-block {
+      background: none;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0 8px 0 8px;
+      min-width: 180px;
+      max-width: 320px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .mv-block i {
+      color: #2196f3;
+      font-size: 1.5em;
+      margin-bottom: 4px;
+    }
+    .mv-title {
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 4px;
+      font-size: 1.05em;
+    }
+    .mv-text {
+      color: #555;
+      font-size: 0.98em;
+    }
+    .team-section {
+      margin-top: 36px;
+    }
+    .team-title {
+      color: #2196f3;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-bottom: 18px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      justify-content: center;
+    }
+    .team-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: none;
+      border-radius: 0;
+      box-shadow: none;
+      width: 180px;
+      min-width: 140px;
+      max-width: 220px;
+      margin-bottom: 8px;
+      padding: 0;
+      transition: none;
+    }
+    .team-avatar {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: #e0f7fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.7em;
+      color: #2196f3;
+      margin-bottom: 8px;
+    }
+    .team-name {
+      font-size: 1em;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 2px;
+      text-align: center;
+    }
+    .team-role {
+      color: #f12f3f;
+      font-size: 0.95em;
+      margin-bottom: 6px;
+      text-align: center;
+    }
+    .team-socials {
+      margin-top: 2px;
+      text-align: center;
+    }
+    .team-socials a {
+      margin: 0 6px;
+      color: #81d4fa;
+      font-size: 1.1em;
+      transition: color 0.2s, transform 0.2s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .team-socials a:hover {
+      color: #21cbf3;
+      transform: scale(1.12);
+    }
+    .footer {
+      background: none;
+      color: #888;
+      text-align: center;
+      padding: 24px 8px 8px 8px;
+      margin-top: 48px;
+      font-size: 1em;
+      border-radius: 0;
+    }
+    .footer a {
+      color: #2196f3;
+      text-decoration: none;
+      margin: 0 8px;
+      transition: color 0.2s;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+      color: #f12f3f;
+    }
+    @media (max-width: 900px) {
+      .container { max-width: 98vw; padding: 0 2vw; }
+      .mission-values { flex-direction: column; gap: 10px; }
+      .team-list { flex-direction: column; align-items: center; gap: 10px; }
+      .team-member { width: 98vw; max-width: 260px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fa-solid fa-users"></i> Sobre Nós</h1>
+    <div class="about-desc">
+      Somos uma equipe apaixonada por inovação, tecnologia e excelência no atendimento. Nosso objetivo é entregar soluções que realmente fazem a diferença para nossos clientes.
+    </div>
+    <div class="mission-values">
+      <div class="mv-block">
+        <i class="fa-solid fa-bullseye"></i>
+        <div class="mv-title">Missão</div>
+        <div class="mv-text">Oferecer serviços e soluções de alta qualidade, promovendo o crescimento sustentável e a satisfação de nossos clientes.</div>
+      </div>
+      <div class="mv-block">
+        <i class="fa-solid fa-eye"></i>
+        <div class="mv-title">Visão</div>
+        <div class="mv-text">Ser referência em nosso segmento, reconhecidos pela inovação, ética e resultados consistentes.</div>
+      </div>
+      <div class="mv-block">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <div class="mv-title">Valores</div>
+        <div class="mv-text">Ética, respeito, colaboração, transparência e foco no cliente em todas as etapas do nosso trabalho.</div>
+      </div>
+    </div>
+    <div class="team-section">
+      <div class="team-title"><i class="fa-solid fa-people-group"></i> Nossa Equipe</div>
+      <div class="team-list" id="team-list">
+        <!-- Membros serão inseridos dinamicamente -->
+      </div>
+    </div>
+  </div>
+  <script>
+    // Dados dinâmicos da equipe
+    const teamMembers = [
+      {
+        name: 'Ana Souza',
+        role: 'Diretora Geral',
+        avatar: 'fa-user-tie',
+        socials: [
+          { icon: 'fab fa-linkedin', url: '#', title: 'LinkedIn' },
+          { icon: 'fab fa-instagram', url: '#', title: 'Instagram' }
+        ]
+      },
+      {
+        name: 'Carlos Lima',
+        role: 'Desenvolvedor',
+        avatar: 'fa-laptop-code',
+        socials: [
+          { icon: 'fab fa-linkedin', url: '#', title: 'LinkedIn' },
+          { icon: 'fab fa-github', url: '#', title: 'GitHub' }
+        ]
+      },
+      {
+        name: 'Juliana Alves',
+        role: 'Marketing',
+        avatar: 'fa-bullhorn',
+        socials: [
+          { icon: 'fab fa-instagram', url: '#', title: 'Instagram' },
+          { icon: 'fab fa-facebook', url: '#', title: 'Facebook' }
+        ]
+      },
+      {
+        name: 'Rafael Torres',
+        role: 'Designer',
+        avatar: 'fa-paint-brush',
+        socials: [
+          { icon: 'fab fa-behance', url: '#', title: 'Behance' },
+          { icon: 'fab fa-dribbble', url: '#', title: 'Dribbble' }
+        ]
+      }
+    ];
+    function renderTeam() {
+      const teamList = document.getElementById('team-list');
+      teamList.innerHTML = '';
+      teamMembers.forEach(member => {
+        const div = document.createElement('div');
+        div.className = 'team-member';
+        div.innerHTML = `
+          <div class="team-avatar"><i class="fa-solid ${member.avatar}"></i></div>
+          <div class="team-name">${member.name}</div>
+          <div class="team-role">${member.role}</div>
+          <div class="team-socials">
+            ${member.socials.map(s => `<a href="${s.url}" title="${s.title}" target="_blank"><i class="${s.icon}"></i></a>`).join('')}
+          </div>
+        `;
+        teamList.appendChild(div);
+      });
+    }
+    renderTeam();
+  </script>
+</body>
+</html>
